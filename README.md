@@ -6,6 +6,7 @@
 5. Github Actions
 6. Generative AI (testing)
 
+For the backend I am using the same from the previous homework: https://github.com/Freddy444/Comp333-react-backend
 
 # Problem 1: unit testing
 To run my answer for the first problem. Simply run 'python3 unit_testing.py'. This should give you the wanted output.
