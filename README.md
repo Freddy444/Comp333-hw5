@@ -35,5 +35,10 @@ After running `pytest test_script.py` in your terminal, pytest will run the test
 
 
 # Problem 3: PHP Unit testing 
+Before you run the test, make sure your database meets the given requirements. For this assignement I used the same database here: https://github.com/Freddy444/Comp333-react-backend. Before you begine make sure to setup the database using XAMPP, and make sure Apache and MySQL are working.
+
+1. Make a new folder called "testing-project" and then make it your working directory by inputting "cd testing-directory" into your terminal.
+2. THen run "composer init" in your terminal and follow Zimmecks choice for the setup.
+3. Then under the testing-project ad the Tests folder I have on this repo, which contains my file with all the tests (BackendTest.php).
 
 # Problem 4: Jest testing
