@@ -45,9 +45,12 @@ What you need in your database before running (tests will fail if this si not do
 
 
 1. Make a new folder called `testing-project` and then make it your working directory by inputting `cd testing-directory` into your terminal.
-2. THen run `composer init` in your terminal and follow Zimmecks choice for the setup.
-3. Then under the testing-project ad the Tests folder I have on this repo, which contains my file with all the tests (BackendTest.php).
-4. Before running anything, make sure to go through the tests file and edit parameters in order to prevent the tests from failing. If you're running for the first time. The only tests whose parameters you have to edit are:
+   
+3. THen run `composer init` in your terminal and follow Zimmecks choice for the setup.
+
+5. Then under the testing-project add the Tests folder I have on this repo, which contains my file with all the tests (BackendTest.php).
+
+7. Before running anything, make sure to go through the tests file and edit parameters in order to prevent the tests from failing. If you're running for the first time. The only tests whose parameters you have to edit are:
    - testPOST_DeleteSong (change the song id - to any song id of the user you logged in as)
    - testPOST_UpdateSong (change the song id - to any song id of the user you logged in as)
    - testPOST_LoginUser (make sure to change parameters to a user that exists in your database. Remember to have atleast 2 songs under this user for the update song test and delete song test)
@@ -55,6 +58,7 @@ What you need in your database before running (tests will fail if this si not do
 The rest of the function test parameters do not need to be edited, unless you wish to. The parameters I left should not cause any issues
   
 5. run this in your terminal `composer require guzzlehttp/guzzle`
+
 6. Now you are ready to run your tests with: `php vendor/bin/phpunit tests`
 
 Here is a picture of all my tests passing:
@@ -62,3 +66,6 @@ Here is a picture of all my tests passing:
 
 
 # Problem 4: Jest testing
+I will be using the same frontend from homework 3: https://github.com/Freddy444/Comp333-react-frontend/blob/main/README.md. The files with my tests are already there, they are named `loginview.test.js` and `registerview.test.js`. 
+
+All instructions are located in my homewwork 3 frontend repo at the very bottom
