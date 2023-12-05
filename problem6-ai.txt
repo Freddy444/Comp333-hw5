@@ -1,0 +1,27 @@
+Generative AI could be used to assist in testing. For this to work you need to give the AI sufficient infromation to work
+with and a prompt that is specific enough. One way to do this is to feed it information on the
+task you wish to do and then feed it any of the code you aready have for the AI to work with. Lets say I 
+want to render tests fro my input fields in my loginview.js file. I can load the tests by give it this prompt:
+
+
+ChatGPT prompt:
+
+"I want to render tests for each of my input fields in my loginview.js file with jest testing. Here
+is my loginview.js file: [Paste the code from loginview.js]."
+
+
+Output:
+
+In the answer they gave me, it had the test I needed which was: 
+
+  test('renders login form with input fields', () => {
+    render(<LoginView />);
+    
+    // Ensure the username and password input fields are present
+    const usernameInput = screen.getByPlaceholderText('Username');
+    const passwordInput = screen.getByPlaceholderText('Password');
+    
+    expect(usernameInput).toBeInTheDocument();
+    expect(passwordInput).toBeInTheDocument();
+  });
+
