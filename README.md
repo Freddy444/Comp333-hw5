@@ -75,6 +75,6 @@ All instructions are located in my homewwork 3 frontend repo at the very bottom
 All tests passed. I did the problem in a separate repository: https://github.com/Freddy444/comp333_hw5_Q5
 <img width="827" alt="Screenshot 2023-12-05 at 2 36 27 PM" src="https://github.com/Freddy444/Comp333-hw5/assets/99642629/d834847a-cf96-450d-a5d4-0ae820c138bb">
 
-
-
+# Problem 6: Generated AI answer
+response to this problem is found in the file "problem6-ai.txt" in this repo
 
