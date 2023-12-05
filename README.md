@@ -69,3 +69,10 @@ Here is a picture of all my tests passing:
 I will be using the same frontend from homework 3: https://github.com/Freddy444/Comp333-react-frontend/blob/main/README.md. The files with my tests are already there, they are named `loginview.test.js` and `registerview.test.js`. 
 
 All instructions are located in my homewwork 3 frontend repo at the very bottom
+
+
+# Problem 5: Github CI 
+All tests passed. I did the problem in a separate repository: https://github.com/Freddy444/comp333_hw5_Q5
+![Uploading Screenshot 2023-12-05 at 2.36.27 PM.png…]()
+
+
